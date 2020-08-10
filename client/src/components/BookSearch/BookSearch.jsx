@@ -11,18 +11,23 @@ class BookSearch extends Component {
                 </div>
                 <br />
                 <form>
-                    <div class="form-group row">
-                        <div class="col-sm-12">
-                            <h5>Book</h5>
+                    <div class="container">
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <h5>Book</h5>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-sm-12">
-                            <input class="form-control" placeholder="Discover!"></input>
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <input class="form-control" placeholder="Discover!"></input>
+                            </div>
                         </div>
-                        <Button>
-                            <p>Search</p>
-                        </Button>
+                        <div class="form-group row">
+                            <br />
+                            <Button>
+                                <p>Search</p>
+                            </Button>
+                        </div>
                     </div>
                 </form>
             </div>

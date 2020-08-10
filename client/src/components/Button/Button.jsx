@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import "./Button.css";
 
 function Jumbotron({ children }) {
     return (
-      <div style={{ textAlign:"right"}} className="button">
-        <button type="button" class="btn btn-primary">{children}</button>
+      <div className="button">
+        <button type="button" class="btn btn-primary btn-container-right">{children}</button>
       </div>
     );
   }
-  
+
   export default Jumbotron;
