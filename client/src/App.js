@@ -3,7 +3,7 @@ import axios from "axios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./containers/Home/Home";
 import NoMatch from "./containers/NoMatch/NoMatch";
-
+import Search from "./containers/Search/Search";
 
 function App() {
   useEffect(() => {
@@ -22,6 +22,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home}/>
+          <Route exact path="/search" component={Search}/>
           <Route component={NoMatch}/>
         </Switch>
       </Router>
