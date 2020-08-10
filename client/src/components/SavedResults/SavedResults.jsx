@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import Button from "../Button/Button";
-import "./Results.css";
 
 class Results extends Component {
   render() {
     return (
       <div class="container border">
         <div class="row">
-          <h4>Results</h4>
+          <h4>Saved Books</h4>
           <Button>
             <p>View</p>
           </Button>
           <Button>
-            <p>Save</p>
+            <p>Delete</p>
           </Button>
         </div>
         <br />

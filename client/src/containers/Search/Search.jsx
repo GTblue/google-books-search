@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import Jumbotron from "../../components/Jumbotron/Jumbotron";
 import BookSearch from "../../components/BookSearch/BookSearch"
-import Results from "../../components/Results/Results"
+import SearchResults from "../../components/SearchResults/SearchResults"
 import Footer from "../../components/Footer/Footer"
 
 const Search = () => {
@@ -11,7 +11,7 @@ const Search = () => {
             <Navbar />
             <Jumbotron />
             <BookSearch />
-            <Results />
+            <SearchResults />
             <Footer />
         </div>
     );
