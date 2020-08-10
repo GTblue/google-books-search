@@ -1,15 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Jumbotron({ children }) {
-  return (
+class Jumbotron extends Component {
+  render() {
+    return (
       <div className="jumbotron jumbotron-fluid">
         <div className="container text-center">
           <h1 className="display-4">(React) Google Books Search</h1>
           <br />
-          <h2>Search for and Save Books of Interest</h2>
+          <h3>Search for and Save Books of Interest</h3>
         </div>
       </div>
-  );
+    );
+  }
 }
 
 export default Jumbotron;
