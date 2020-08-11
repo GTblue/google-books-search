@@ -6,6 +6,8 @@ import SearchResults from "../../components/SearchResults/SearchResults"
 import Footer from "../../components/Footer/Footer"
 
 const Search = () => {
+
+
     return (
         <div>
             <Navbar />
