@@ -7,13 +7,18 @@ class Results extends Component {
     return (
       <div class="container border">
         <div class="row">
+          <div class="col-sm-2">
           <h4>Results</h4>
+          </div>
+          <div class="col-sm-8"></div>
+          <div class="col-sm-2">
           <Button>
-            <p>View</p>
+            View
           </Button>
           <Button>
-            <p>Save</p>
+            Save
           </Button>
+          </div>
         </div>
         <br />
         <div class="row"></div>
